@@ -1,0 +1,2836 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <style>
+      #first {
+        background-color: red;
+      }
+      .bg-blue {
+        color: purple;
+      }
+    </style> -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="first" style="color: palegreen">First</div>
+    <div id="second">Second</div>
+    <div id="red">Third</div>
+    <section class="red bg-blue">heyyy buddyyyy</section>
+  </body>
+</html>
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="red">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates vel
+      inventore reprehenderit a dolore, ab id aspernatur harum aperiam. At
+      mollitia cupiditate tempore recusandae ex.
+    </div>
+    <div class="blue">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+      perspiciatis commodi, porro error dolor incidunt velit minus possimus ea
+      facilis sed deleniti non quaerat facere!
+    </div>
+  </body>
+</html>
+
+
+
+
+
+cssSelector.js
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        color: red;
+      }
+      div {
+        background-color: antiquewhite;
+      }
+      #bg,
+      h3 {
+        background-color: green;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>This is my cssSelector page</h1>
+      <h1>This is another h1</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit unde
+        numquam et dolores ipsum dicta modi, eius provident earum ducimus sint
+        sequi, sapiente officiis repudiandae autem quod quae enim vel iusto?
+        Obcaecati?
+      </p>
+      <div id="bg">bg is red</div>
+      <h3>Hey i am h3</h3>
+    </div>
+  </body>
+</html>
+
+
+
+
+keywordtxt
+
+
+alt+z = for word wrap
+ctrl + D = if i want to select same name
+m-0+p-0
+
+
+
+notes
+
+
+div
+paragraph
+h1
+h2
+id 
+css
+
+
+css ka kafi sara project v hota hai let's see
+
+div
+p
+h1
+body selector
+element selector
+id selector
+class selector
+style:-
+inline 
+external
+internal style
+
+work on col-4
+
+
+
+
+
+prac.html
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      .parent {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+      }
+      .child {
+        width: 25%;
+        display: flex;
+      }
+      .subclass {
+        background-color: red !important;
+        margin: 10px;
+        max-height: 200px;
+        padding: 10px 30px 80px 120px;
+        color: #fff;
+        /* text-align: justify; */
+      }
+      .container {
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @media (max-width: 576px) {
+        .subclass {
+          background-color: black !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="parent">
+        <p>Hey i am parent</p>
+        <div class="child">
+          Hey i am child class
+          <div class="subclass">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente
+            accusamus quibusdam voluptas perspiciatis quasi consequatur autem
+            quam sed quae, earum optio a aliquid ducimus? Laudantium, quibusdam.
+            Voluptates eaque iure harum quo maxime recusandae deleniti
+            distinctio similique, magnam ipsum? Ipsam enim perspiciatis dolor
+            nisi in necessitatibus veritatis asperiores numquam! Magnam illum,
+            qui temporibus deserunt numquam delectus rerum ullam nemo, ipsa
+            perspiciatis alias quibusdam fugiat dolores iure optio officiis
+            aspernatur voluptatibus non pariatur, quae cumque quia!
+            Consequuntur, dolorum unde qui, culpa vel accusantium dolores ab
+            illo neque ea rem dolor quidem inventore? Placeat eum tenetur
+            voluptatum iure aut ipsum explicabo assumenda. Ea corrupti ex quam
+            non ipsam cumque aperiam, praesentium at. Ab quo repellendus
+            accusantium saepe cumque nam quae qui quisquam aspernatur totam unde
+            ipsum impedit, maiores rem officia, animi iusto. Repudiandae atque
+            commodi quo odio voluptate nisi. Eligendi aut minima alias iusto
+            fugiat voluptate blanditiis ex voluptatibus unde architecto quod
+            quia, libero sit natus inventore mollitia at! Modi explicabo laborum
+            assumenda dolorum incidunt. Praesentium adipisci ad nemo doloremque,
+            laudantium ipsa qui nostrum porro expedita id eaque harum distinctio
+            tempore temporibus maxime voluptate eveniet, a mollitia est tempora
+            accusamus ratione? Repudiandae facilis autem officiis ipsam quaerat
+            eaque dolores et, excepturi nesciunt eligendi quisquam id, odit,
+            magnam explicabo blanditiis qui incidunt fuga necessitatibus
+            exercitationem modi maxime! Labore et nemo praesentium modi nisi
+            alias natus, maxime laborum voluptatum non saepe laudantium
+            assumenda aspernatur, a veniam! Obcaecati, quis minus repellat nam
+            amet, velit dolor quisquam, ad nemo explicabo possimus dolorum.
+            Possimus dignissimos consequatur animi labore cum modi obcaecati
+            odio doloribus explicabo architecto eos ad accusantium voluptatum
+            blanditiis, neque velit quos maiores corrupti, aut sint accusamus
+            minima repudiandae eaque expedita? In, placeat nihil. Neque dolore
+            dignissimos doloremque et est, iure deserunt illum repellat quas
+            tempore. Distinctio repellat explicabo quas obcaecati vitae cumque
+            molestias sapiente sunt illo?
+          </div>
+          <div class="subclass">hey</div>
+          <div class="subclass">hey</div>
+          <div class="subclass">hey</div>
+          <div class="subclass">hey</div>
+        </div>
+        <div class="child">hello</div>
+        <div class="child">hello</div>
+        <div class="child">hello</div>
+        <div class="child">hello</div>
+        <div class="child">hello</div>
+        <div class="child">hello</div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+style.css
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.red{
+    background: rgb(196, 113, 113);
+}
+
+
+
+
+
+*****************by Mrinmoy sir*************************
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="subchild">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
+              rem fugit excepturi quia. Aperiam obcaecati doloribus incidunt
+              facilis in laboriosam id explicabo magni sed tempora unde ratione
+              ut dolorum voluptatibus quae, quo ipsa commodi voluptate possimus
+              mollitia. Dicta quo necessitatibus incidunt pariatur non amet? Quo
+              excepturi culpa autem deleniti iusto sit labore sapiente, quasi
+              vitae quibusdam atque tenetur et repellendus veritatis temporibus,
+              quidem nam quam aliquam molestiae quisquam repellat dicta?
+              Dignissimos corrupti iure omnis porro aspernatur molestias tempore
+              adipisci neque natus repellendus. Odio deleniti maxime
+              repudiandae, ex rem, placeat vitae in ipsam minima beatae iure
+              reprehenderit architecto pariatur soluta quam adipisci eius
+              delectus quos tenetur eum, quae fuga libero a. Mollitia dolorum
+              atque ratione similique cum expedita, quia perferendis illum
+              consectetur sequi aliquid dolorem inventore officia enim repellat
+              earum veniam incidunt maiores excepturi voluptatum doloremque
+              aperiam reprehenderit corrupti quas. Sequi tenetur nam quia ipsum
+              dolores vel vitae? Alias nesciunt necessitatibus explicabo aliquid
+              totam assumenda ab doloribus nam eveniet dolore quibusdam
+              laboriosam magnam tenetur ipsa iure, provident excepturi? Aliquam
+              esse quibusdam, cum incidunt iure recusandae dolor vel, nam fuga
+              at inventore accusamus qui amet est exercitationem. Quisquam
+              recusandae excepturi nam fuga debitis, repudiandae quae
+              perferendis veritatis? Repudiandae id mollitia asperiores
+              inventore consectetur obcaecati, maxime molestias alias nisi iste
+              debitis earum recusandae error dolore. Perferendis fugiat minus
+              tempora maxime, provident ut similique.
+            </p>
+          </div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="subchild"></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="subchild"></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="subchild"></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="subchild"></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="subchild"></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="subchild"></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="subchild"></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="subchild"></div>
+        </div>
+        <div class="col-6 col-md-4">
+          <div class="subchild"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+style.css
+
+
+
+/* Flex, Position, @media, 
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .child {
+    width: 25%;
+  }
+  .subchild {
+    background-color: red !important;
+    margin: 10px;
+    min-height: 100px;
+    padding: 10px 30px 80px 120px;
+    color: #fff;
+    text-align: justify;
+  }
+  .subchild {
+      background-color: green;
+  }
+  
+  
+  @media (max-width: 576px) {
+      .subchild {
+          background-color: black !important;
+      }
+  }
+
+
+
+
+
+
+
+********************************  Form info  *****************************************
+
+by mrinmoy sir*********************>>>>>>>>>>>>>>>>>>>>>>
+
+
+
+import React from "react";
+import { useState } from "react";
+
+const Deptartment = () => {
+  const [form, setForm] = useState({
+    name: "",
+    city: "",
+    gender: "",
+    parent: "",
+  });
+
+  console.log(form, "form");
+  // const formhandlename = () => {
+  //   setForm();
+  // };
+
+  // const handlechange = (e) => {
+  //   const { name, value, type, checked } = e.target;
+  //   // const newValue = type === 'checkbox' ? checked : value;
+
+  //   setForm({
+  //     ...form,
+  //     [name]: name,
+  //   });
+  // };
+
+  return (
+    <>
+      {/* <h1>This is Department</h1> */}
+      <div className="mb-3">
+        <label for="" className="form-label">
+          Name
+        </label>
+        <input
+          type="text"
+          className="form-control"
+          name="name"
+          id=""
+          aria-describedby="helpId"
+          placeholder=""
+          value={form.name}
+          onChange={(e) => setForm({ ...form, name: e.target.value })}
+        />
+        <small id="helpId" className="form-text text-muted">
+          Help text
+        </small>
+        <label for="" className="form-label">
+          Parent
+        </label>
+        <input
+          type="text"
+          className="form-control"
+          name="parent"
+          id=""
+          aria-describedby="helpId"
+          placeholder=""
+          value={form.name}
+          onChange={(e) => setForm({ ...form, parent: e.target.value })}
+        />
+        <small id="helpId" className="form-text text-muted">
+          Help text
+        </small>
+        <div class="mb-3">
+          <label for="" class="form-label">
+            City
+          </label>
+          <select
+            class="form-select form-select-lg"
+            name=""
+            id=""
+            onChange={(e) => setForm({ ...form, city: e.target.value })}
+          >
+            <option selected>Select one</option>
+            <option value="new delhi">New Delhi</option>
+            <option value="istanbul">Istanbul</option>
+            <option value="jakarta">Jakarta</option>
+          </select>
+        </div>
+        <p>Please select your favorite Web language:</p>
+          <input
+          type="radio"
+          id="html"
+          name="fav_language"
+          value="HTML"
+        />  <label for="html">HTML</label>
+          <input type="radio" id="css" name="fav_language" value="CSS" /> {" "}
+        <label for="css">CSS</label> {" "}
+        <input
+          type="radio"
+          id="javascript"
+          name="fav_language"
+          value="JavaScript"
+        />
+          <label for="javascript">JavaScript</label>
+      </div>
+    </>
+  );
+};
+
+export default Deptartment;
+
+
+
+
+
+********************************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+// Date: 05/09/2023
+
+// let arr = [
+//   {
+//     name: "Mrinmoy Ghosh",
+//     email: "mrinmoygh081@gmail.com",
+//   },
+//   {
+//     name: "Upu",
+//     email: "mrinmoygh081@gmail.com",
+//   },
+//   null,
+// ];
+// arr.map((item, index) => {
+//   //   console.log(item?.name, index);
+// //   console.log(item && item.name, index);
+// });
+
+// let arr = [
+//   {
+//     name: "Mrinmoy Ghosh",
+//     email: "mrinmoygh081@gmail.com",
+//     age: 27,
+//   },
+//   {
+//     name: "Upu",
+//     email: "mrinmoygh081@gmail.com",
+//     age: 22,
+//   },
+//   null,
+// ];
+
+// const joBaraHoGayaHai = arr.filter((item, index) => {
+//   return item?.age > 25;
+// });
+// console.log(joBaraHoGayaHai);
+
+// const joBachiHai = arr.filter((item, index) => item?.age < 25);
+// console.log(joBachiHai);
+
+// let arr = [4, 5, 2, 9, 7];
+
+// const total = arr.reduce((accumalator, currentValue) => {
+//   return accumalator + currentValue;
+// }, 0);
+// console.log(total);
+
+// ternary operator
+let name = "Mrinmoy";
+// if (name === "Upu") {
+//   console.log("She is genius");
+// } else {
+//   console.log("Worst developer I ever know!");
+// }
+
+// name === "Upu"
+//   ? console.log("She is genius")
+//   : console.log("Worst developer I ever know!");
+
+// let arr = [
+//   {
+//     name: "Mrinmoy Ghosh",
+//     email: "mrinmoygh081@gmail.com",
+//     age: 27,
+//   },
+//   {
+//     name: "Upu",
+//     email: "mrinmoygh081@gmail.com",
+//     age: 22,
+//   },
+//   null,
+// ];
+// let arr3 = arr;
+// let arr2 = [...arr, { name: "Genius", email: "personal" }, 40];
+// console.log(arr2);
+
+
+
+//Date:- 09/06/2023
+
+
+import React, { useEffect, useState } from "react";
+
+const Vanilla = () => {
+  const [data, setData] = useState(null);
+  const [count, setCount] = useState(0);
+
+  const fetchData = () => {
+    console.log("Hello");
+    let requestOptions = {
+      method: "GET",
+    };
+
+    fetch("https://jsonplaceholder.typicode.com/posts", requestOptions)
+      .then((response) => response.json())
+      .then((result) => setData(result))
+      .catch((error) => console.log("error", error));
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, [count]);
+  console.log(data);
+
+  return (
+    <div className="master" style={{ padding: "20px" }}>
+      <button onClick={() => setCount(count + 1)}>Please count {count}</button>
+      <ul>
+        <li>Lorem ipsum dolor sit</li>
+        <li>iae cumque quas aspernatur aperiam</li>
+        <li>temporibus veniam assumenda.</li>
+      </ul>
+    </div>
+  );
+};
+
+export default Vanilla;
+
+
+
+
+
+
+date:- 06/09/2022
+
+
+To accomplish your task, you can use JavaScript with the Axios library to send a POST request with a JSON body and headers after importing an image from a folder. Here's a step-by-step guide:
+
+1. First, make sure you have Node.js installed on your system.
+
+2. Create a new directory for your project and navigate to it using your command line terminal.
+
+3. Initialize a Node.js project by running the following command:
+
+```bash
+npm init -y
+```
+
+4. Install Axios, a popular HTTP client for making requests, by running:
+
+```bash
+npm install axios
+```
+
+5. Create a JavaScript file (e.g., `sendPostRequest.js`) and add the following code:
+
+```javascript
+const axios = require('axios');
+const fs = require('fs');
+
+// Read the image file from the folder
+const imagePath = './path/to/your/image.jpg'; // Replace with the actual path to your image
+const imageBuffer = fs.readFileSync(imagePath);
+
+// Define your JSON body and headers
+const requestBody = {
+  key1: 'value1',
+  key2: 'value2',
+};
+
+const requestHeaders = {
+  'Content-Type': 'application/json',
+  Authorization: 'Bearer your-access-token', // Replace with your authorization token, if needed
+};
+
+// Define the API endpoint where you want to send the POST request
+const apiUrl = 'https://example.com/api/endpoint'; // Replace with your API endpoint URL
+
+// Send the POST request using Axios
+axios.post(apiUrl, requestBody, {
+  headers: requestHeaders,
+})
+  .then(response => {
+    console.log('Response from the server:', response.data);
+  })
+  .catch(error => {
+    console.error('Error:', error);
+  });
+```
+
+Make sure to replace the placeholders with your actual image path, JSON body, headers, and API endpoint URL.
+
+6. To run the script, execute the following command in your terminal:
+
+```bash
+node sendPostRequest.js
+```
+
+This script will read the image from the specified path, send a POST request with the JSON body and headers to the specified API endpoint using Axios, and then log the response or any errors to the console.
+
+Make sure you have the necessary permissions and that the image file and API endpoint are correctly configured for your use case.
+
+
+
+
+
+
+
+
+----> image magnifier
+
+https://ethanselzer.github.io/react-image-magnify/#/lens
+
+
+
+
+
+
+
+DATE:- 08/09/2023
+
+
+
+whenever you are writing something in this input field we will store them somewhere in the
+variable
+
+
+cerate a state values and setValues
+const[values,setValues] = useState({
+  username:
+  password:
+})
+inside a {} it is an object with us
+
+
+
+
+
+
+
+click on the sudisa app the it will open a popup then click on the start button . onClicking 
+start button it will wait for some seconds Sign In opl will be open . User should write 
+username and pasword  and click on Continue. We will redirect to Start screen page . Click on 
+the Startall button so that all the devices  connected to the system will be activated.
+
+
+on Clicking on the dashboard in the sidebar it will redirect to dashboard page. 
+in dashboard page click on the choose client page .
+ And then click on choose product and shift then  all product with the instruction image will appear. if you click on the send button OPLs instructions will be sent to the respective screens.
+
+Clicking on the "Dashboard" option in the sidebar will redirect you to the dashboard page. Within the dashboard page, you can click on the "Choose Client" option. From there, proceed to select a specific client and then click on the "Choose Product" and "Choose Shift" options. This action will display all available products along with instructional images. If you click the "Send" button, the instructions related to OPLs will be sent to the respective screens.
+
+
+
+
+
+scroll down to see the costumer feedback there you can choose the time gap and time duration   for the selected images and selected screen  so that the selected  image will appear on that time gap and  for that duration .You can add multiple images on clicking on Add New option and you can also choose the respective screen. On clicking send button 
+the image image will appear on the respective screens 
+
+
+
+
+Scroll down to view customer feedback. Here, you can select the time gap and time duration for the chosen images and selected screens. This will allow the selected image to appear at the specified time gap and for the chosen duration. You can add multiple images by clicking on the "Add New" option and selecting the respective screen. Upon clicking the "Send" button, the image will appear on the respective screens.
+
+
+To view customer feedback, scroll down to access the option for selecting the time gap and duration for the chosen images and screens. You can specify the time gap and duration for when the selected image will appear. Additionally, you have the option to add multiple images by clicking on the "Add New" option and assign them to the respective screens. Once you have configured the settings, clicking the "Send" button will display the selected images on the corresponding screens.
+
+
+
+In The master file with OPL Management. on clicking Master Setup multiple option will appear on Clicking Add Clint option. There you can ad the clint and also there is a option to edit the client 
+
+
+In the master file within OPL Management, when you click on "Master Setup," multiple options will appear. By selecting the "Add Client" option, you can add a client. Additionally, there is an option to edit the client.
+ By selecting the "Product" option, you can add the client and corresponding to that client you may chose the product .On clicking Add button the Product will be added coresponding to the client
+By clicking the "Sub-part of the Product" option, you can choose the client, select the product, and specify the product part name. When you click the "Add" button, you can add the product part.
+
+
+
+On clicking "sub part of the product" option you may choose the option to choose Client, choose product and also product part name. On Clicking add button the you can add the
+
+
+
+
+
+you may add the screen on clicking on the screen option you may add the screen ID and screen name . On clicking ADD option you may ADD the screen
+
+
+You can add a screen by selecting the "Screen" option. Upon clicking this option, you may input the screen ID and screen name. Clicking the "ADD" button will allow you to add the screen.
+
+
+you may add the instruction image by choosing the file . On clicking the add option you may add the instruction image
+
+
+
+You can add an instruction image by selecting a file. Clicking the "Add" option will allow you to add the instruction image.
+
+you can also add the shift . By clicking on the add option you can ad the shift
+
+You can add a shift by clicking on the "Add" option. This will enable you to add the shift.
+
+
+
+
+To add new OPL click on the ADD NEW . Once you click on the ADD NEW you will redirect to the  
+OPL ADD OPL page . There you fill the Client name ,Product name, Part of the product, Choose 
+screen on which you want to display the OPL, Choose the Shift , Choose the instruction. Once you 
+choose all the input field click on ADD. Once you click on ADD all the New OPL will be added 
+in the OPL Management page .You can edit or delete the added OPL.
+
+
+
+
+
+
+
+To add a new OPL, click on "ADD NEW." Once you click on "ADD NEW," you will be redirected to the ADD OPL page. There, you should fill in the Client name, Product name, Part of the product, choose the screen on which you want to display the OPL, select the Shift, and choose the instruction. After selecting all the input fields, click on "ADD." Upon clicking "ADD," all the new OPLs will be added to the OPL Management page. You can then edit or delete the added OPLs.
+
+
+
+
+Date:- 11/09/2023
+
+
+10.12.1.151:4002/api/v1/master/dept      -------> API for department
+
+
+Redux tutorial:-
+
+Normally in react how we pass data?
+
+Redux is basically used for state Management
+
+
+The data in React always flows from parent to child components which make it unidirectional.
+In react with Prop Drilling
+
+
+
+to solve this issue react developer used  Prop Drilling
+
+problem --> from app.js pass data to parent --> child --> subchild . this is how data will be pass to parent components
+
+
+In React Hooks (Context API , useContext)
+
+
+data hamara app ke pass hi rhega lekin kal ke din app ke under user and user ke ander user info to phle ye ho rha tha ki hm app se user ko pass kar rhe the and user se hm user info me get kar rhe the
+with the help of Context Api and useContext --> isme ky hota hai we have a provider and we have a consumer  provider ke ander hm (data) isko rapp kar dete the and consumer ke pass ek power hai chahe  app ke pass jitne v component q na ho unme se jin jin component ko ye data chaiye(jo provider ke pass hai) to wo as a consumer ka role play karnge and wo uss data ko get kar skte the...lekin consumer thoda lengthy tha to hm use karte hai useContext
+to bhut jaldi provider and useContext se hm data ko get kar skte hai...
+
+
+react hooks and redux dono same kaam karta hai
+
+********Defination********
+
+The provider is used to create a context that can be consumed. The consumer is used to consume the nearest provided context. 
+
+
+
+How  Redux solve this Problem?
+
+
+jo data hai usko seperate store me store kar ke rakh denge and iss store ke madad se jo v component ho unko jb v data lagega wo iss store ko call karnge and woha se wo data get kar skaenge to jis jis component ko jb v data chaiyehoga wo store ko call karega. to redux me we have one centerized seperate store hota hai.. jaha pe hm complete application ka state store kar ke rakhte hai and jis v component ko chaiye hoga data to wo iss store ko call karega
+to redux ka main funda yehi hai ek centerized ek alag sa store application ke sare state issi ke ander honge and jb v kisi component ko data chaiye rhega wo simply iss store ko call karega and wo data get kar lega 
+
+ab wo data ko call karna , data ko get karna , store ko create karna , kis tarah se data store ho rha hai call kaise ho rha hai, state update kaise ho rha hai
+
+
+
+What is REDUX?
+
+
+Redux is a pattern and library for managing and updating application state using events called "action". It serves as a centerized store for state that needs to be used across your 
+entire application, with rules ensuring that needs to be used across your entire application,
+with rules ensuring that the state can only be updated in a predictable fashion.
+
+
+
+
+REDUX main topic  -->
+
+
+01. Actions:--
+
+what to do?
+
+
+02. Reducer
+
+How to do?
+
+03 Store 
+Object which holds the state of the application
+
+
+04 Functions associated with store
+createStore()  --> store ko kaise create kare
+dispatch(action) --> action ko kaise trigger kare ki mujhe increament karwana hai ya decrement karwana hai.
+getState() --> to get the current state
+
+
+
+
+
+1. Action
+Pure Object
+
+Actions are plain Javascript Objects that have a type field.
+Action only tell what to do , but they don't tell how to do. 
+
+return {
+  type: 'DECREMENT',
+  payload: num
+}
+
+01. increament
+when user click on increment button
+02. decrenment
+when user click on decrement button
+
+
+
+1.1 Action Creator
+
+Pure function which creates an action
+
+export const incNumber = (num) =>{
+    return {
+      type: 'increment'
+      payload: num
+    }
+
+}
+
+
+Reusable, Portable and Easy to test  
+
+
+
+2. Reducer
+
+Reducers are the functions that take the current state and an action as an arguments, 
+and return a new state result
+
+const initialState = 0;
+const changeTheNumber = (state = initialState , action){
+   switch(action.type)
+   {
+    case: " Increment" : return state + action.payload;
+    case: "decrement" : return state - 1;
+    default: return state;
+   }
+
+}
+
+
+
+3. Store
+
+The Redux store brings together the state , action and reducers that make up your app.
+It is important to note that you'll only have a single store in a Redux application.
+Every Redux store has a single root reducer function.
+
+import {createStore} from "redux";
+const store = createStore(rootReducers);
+
+
+01 Single source of truth
+
+The global state of your application is stored as an object inside a single store.
+
+02. State is Read-only
+
+The only way to change the state is to dispatch an action
+
+--> jo apke action ko trigger kar rha hota hai..
+
+
+03. Immutability, One-way data flow,
+Predictability of outcome 
+
+04. Changes are made with Pure Reducer Functions
+
+
+
+
+
+
+
+--------- redux by m-----
+
+
+
+
+
+store.js
+index.js---> provider--> store
+
+
+
+
+
+Date:- 12/09/2023
+
+
+Redux Note by thapa technical:--
+
+
+npx create-raact-app .
+
+npm i redux react-redux
+
+
+actions ---> what to do ?
+reducers ---> How to do?
+we may create multiple reducers
+
+*********************************************************
+
+m taught
+
+import React, { useState } from "react";
+import Header from "../components/Header";
+import Sidebar from "../components/Sidebar";
+import Strawberry from "./Strawberry";
+import Safty from "./Safty";
+import Vanilla from "./Vanilla";
+import Signin from "./Signin";
+import { useDispatch, useSelector } from "react-redux";
+
+const Layout = () => {
+  const [selectedOption, setSelectedOption] = useState(null);
+  // const [isloggedIn, setIsloggedin] = useState(false);
+  const auth = useSelector((state) => state.auth.value);
+  const dispatch = useDispatch();
+
+  console.log(auth);
+
+  const handleOptionSelect = (selectedOption) => {
+    setSelectedOption(selectedOption); // Update the selected option in state
+  };
+
+  console.log(selectedOption);
+
+  return (
+    <>
+      {!auth ? (
+        <Signin />
+      ) : (
+        <>
+          <Header handleOptionSelect={handleOptionSelect} />
+          <Sidebar />
+          {selectedOption && selectedOption.value === "Safty" && <Safty />}
+          {selectedOption && selectedOption.value === "Option2" && (
+            <Strawberry />
+          )}
+          {selectedOption && selectedOption.value === "Option3" && <Vanilla />}
+        </>
+      )}
+    </>
+  );
+};
+
+export default Layout;
+
+
+
+
+jitna v chiz header.js file and app.js file me tha usko Layout me likh diye 
+
+
+
+for making reducer--->
+
+for login and logout we have to do in this way----->
+
+
+
+
+
+
+
+
+Date:- 13/09/2023
+
+
+
+
+
+// import React, { useState } from "react";
+// import "../assets/loginForm.css";
+// import "react-toastify/dist/ReactToastify.css";
+// import { ToastContainer, toast } from "react-toastify";
+// import companylogo from "../images/grsc.png";
+// import { postAPI } from "../utils/fetchAPIs";
+// import { useDispatch } from "react-redux";
+// import { loginHandler, logoutHandler } from "../redux/slices/authSlice.js";
+
+// function LoginForm() {
+//   const dispatch = useDispatch();
+//   const [vendorLogin, setVendorLogin] = useState("");
+//   const [vendorPassword, setVendorPassword] = useState("");
+//   // const [loginData, setLoginData] = useState({
+//   //   username: "",
+//   //   password: "",
+//   // });
+//   const [isNavigating, setIsNavigating] = useState(false); // Add state for navigation
+
+//   const handleLogin = async (e) => {
+//     e.preventDefault();
+//     setIsNavigating(true);
+
+//     const payload = {
+//       username: vendorLogin,
+//       password: vendorPassword,
+//     };
+//     let data = await postAPI(
+//       "http://10.12.1.151:4001/api/v1/login",
+//       payload,
+//       null
+//     );
+//     if (data.status) {
+//       toast.success(data?.message);
+//       dispatch(loginHandler());
+//       setIsNavigating(false);
+//     } else {
+//       toast.error(data?.message);
+//       setIsNavigating(false);
+//     }
+
+//     //  // Start the loading indicator
+//   };
+
+//   return (
+//     <div className="main-login-container">
+//       <div className="login-container">
+//         <img src={companylogo} alt="Company Logo" className="company-logo" />
+//         <h2>Welcome to GRSC</h2>
+//         <form onSubmit={handleLogin}>
+//           <div className="input-container">
+//             <label htmlFor="vendor-login">Vendor Login</label>
+//             <input
+//               type="text"
+//               id="vendor-login"
+//               name="vendor-login"
+//               value={vendorLogin}
+//               onChange={(e) => setVendorLogin(e.target.value)}
+//               required
+//             />
+//           </div>
+//           <div className="input-container">
+//             <label htmlFor="vendor-password">Vendor Password</label>
+//             <input
+//               type="password"
+//               id="vendor-password"
+//               name="vendor-password"
+//               value={vendorPassword}
+
+//               onChange={(e) => setVendorPassword(e.target.value)}
+//               required
+//             />
+//           </div>
+//           <button type="submit" disabled={isNavigating}>
+//             {isNavigating ? "Logging in..." : "Login"}
+//           </button>
+//         </form>
+//         <ToastContainer />
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default LoginForm;
+
+
+
+
+
+
+/api/v1/auth/login
+
+
+10.12.1.151:4002/api/v1/master/dept
+
+
+
+
+
+
+
+
+
+************************* by mrinmoy sir**************************
+
+vanilla.js page
+
+
+
+import React, { useEffect, useState } from "react";
+
+const Vanilla = () => {
+  const [data, setData] = useState(null);
+  const [count, setCount] = useState(0);
+
+  const fetchData = () => {
+    console.log("Hello");
+    let requestOptions = {
+      method: "GET",
+    };
+
+    fetch("https://jsonplaceholder.typicode.com/posts", requestOptions)
+      .then((response) => response.json())
+      .then((result) => setData(result))
+      .catch((error) => console.log("error", error));
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, [count]);
+  console.log(data);
+
+  return (
+    <div className="master" style={{ padding: "20px" }}>
+      <button onClick={() => setCount(count + 1)}>Please count {count}</button>
+      <ul>
+        <li>Lorem ipsum dolor sit</li>
+        <li>iae cumque quas aspernatur aperiam</li>
+        <li>temporibus veniam assumenda.</li>
+      </ul>
+    </div>
+  );
+};
+
+export default Vanilla;
+
+
+
+
+
+
+
+
+
+fetch data using api ---->
+
+const API = "http://10.12.1.151:4002/api/v1/master/dept";
+
+const Depts = () => {
+  const fetchUsers = async (url) => {
+    try {
+      const res = await fetch(url);
+      const data = await res.json();
+      console.log(data);
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  useEffect(() => {
+    fetchUsers(API);
+  }, []);
+
+
+
+
+*******************************************************************
+Date:--- 14/09/2023
+
+
+
+
+const fetchUsers = async (url) => {
+    try {
+      const res = await fetch(url);
+      const data = await res.json();
+      console.log(data);
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const API = "https://dummyjson.com/products/1";
+  useEffect(() => {
+    fetchUsers(API);
+  }, []);
+
+
+this code is to fetch the data  from the API 
+
+
+
+
+----->
+
+
+const[users, setUsers] = useState([]);
+
+  const fetchUsers = async (url) => {
+    try {
+      const res = await fetch(url);
+      const data = await res.json();
+      if(data.length > 0)
+      {
+        setUsers(data);
+      }
+  
+      console.log(data);
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const API = "https://dummyjson.com/products/1";
+  useEffect(() => {
+    fetchUsers(API);
+  }, []);
+
+
+
+
+
+************************************************
+
+
+b thaught
+
+
+to fetch the data from the API  this technioque is taught by thapa technical
+
+
+
+vanilla.js
+
+
+import React, { useEffect, useState } from "react";
+const Vanilla = () => {
+  const [users, setUsers] = useState([]);
+  console.log(users, "i am users in vanilla.jsx");
+  const fetchUsers = async (API) => {
+    try {
+      const res = await fetch(API);
+      const data = await res.json();     
+      const products = data.products;
+      setUsers(products);
+
+      console.log(products, "data1");
+    } catch (e) {
+      console.error(e);
+    }
+  };
+
+  const API = "https://dummyjson.com/products";
+  useEffect(() => {
+    fetchUsers(API);
+  }, []);
+
+  return (
+    <div className="master" style={{ padding: "20px" }}>
+      <table>
+        <thead>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Address</th>
+        </thead>
+
+        <tbody>
+          <UserData users={users} />
+        </tbody>
+      </table>
+
+      <h1>React Table</h1>
+    </div>
+  );
+};
+
+export default Vanilla;
+
+
+********************
+
+
+.env 
+file--->
+
+REACT_APP_API_URI=http://10.12.1.151:4002/api/v1
+
+
+*********************
+
+
+
+Dept.jsx
+
+
+import React, { useEffect, useState } from "react";
+import Sidebar from "../components/Sidebar";
+import Header from "../components/Header";
+import { FaSearch } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { toast } from "react-toastify";
+import UserData from "../components/UserData";
+import { getAPI, postAPI } from "../utils/fetchapi";
+// const API = "https://dummyjson.com/products/1";``
+const API = "http://10.12.1.151:4002/api/v1/master/dept";
+
+const Depts = () => {
+  const [users, setUsers] = useState([]);
+
+  const fetchUsers = async (url) => {
+    try {
+      const data = await getAPI(`master/dept`, null);
+      if (data.status) {
+        setUsers(data?.data);
+      } else {
+        toast.error(data?.message);
+      }
+    } catch (error) {
+      console.error(error);
+      toast.error("Something went wrong. Try Again!");
+    }
+  };
+
+  useEffect(() => {
+    fetchUsers(API);
+  }, []);
+
+  return (
+    <>
+      <div className="main">
+        <div className="table_header">
+          <div className="table_header_left">
+            <h3>Departments</h3>
+            <p>
+              Home / <span>Departments</span>
+            </p>
+          </div>
+          <div className="table_header_center">
+            <input type="text" className="form-control" />
+            <button className="btn btn-primary btn-sm">
+              <FaSearch />
+            </button>
+          </div>
+          <div className="table_header_right">
+            <Link to="/addDept" className="btn btn-success">
+              Add Department
+            </Link>
+          </div>
+        </div>
+        <table class="table table-striped table-bordered table-hover">
+          <thead>
+            <tr>
+              {/* <th scope="col">ID</th>
+              <th scope="col">Department Name</th>
+              <th scope="col">Head Name</th>
+              <th scope="col">Emails</th> */}
+              <th scope="col">dept_id</th>
+              <th scope="col">dept_name</th>
+              <th scope="col">emails</th>
+              <th scope="col">head_name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <UserData users={users} />
+            {/* <tr>
+              <th scope="row">1</th>
+              <td></td>
+              <td>Otto</td>
+              <td>@mdo</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Jacob</td>
+              <td>Thornton</td>
+              <td>@fat</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td colspan="2">Larry the Bird</td>
+              <td>@twitter</td>
+            </tr> */}
+          </tbody>
+        </table>
+      </div>
+    </>
+  );
+};
+
+export default Depts;
+
+
+
+
+
+**************************
+
+.env
+
+REACT_APP_API_URI=http://10.12.1.151:4002/api/v1
+
+
+
+
+
+Date:-- 15/09/2023
+
+Global state Management
+
+Redux persist  
+
+
+install redux-persist
+
+import {persiststore, persistreducer} from 'redux-persist';
+import storage  from 'redux-persist/lib/storage';
+
+//we will store the state in the local storage
+
+const persistConfig={
+  key:'persist-key',
+  storage
+}
+const persistedreducer = persistReducer(persistConfig,rootReducers);
+
+export const store = configureStore({
+  reducer: persistedReducer,
+});
+export const persistor = persistStore(store);
+
+
+
+
+
+index.js
+
+
+import { store, persistor } from "./redux/store";
+import { Provider } from "react-redux";
+import { PersistGate } from "redux-persist/integration/react";
+
+
+  
+   
+<Provider store={store}>
+<PersistGate loading={null} persistor={persistor}>
+  <App />
+</PersistGate>
+</Provider>
+
+
+projectSlice.js
+
+import { createSlice } from "@reduxjs/toolkit";
+
+const initialState = {
+  value: null,
+};
+
+export const projectSlice = createSlice({
+  name: "project",
+  initialState,
+  reducers: {
+    projectTypeHandler: (state, action) => {
+      state.value = action.payload.value;
+    },
+  },
+});
+
+// Action creators are generated for each case reducer function
+export const { projectTypeHandler } = projectSlice.actions;
+
+export default projectSlice.reducer;
+
+
+
+
+
+store.js
+
+import { combineReducers, configureStore } from "@reduxjs/toolkit";
+
+import storage from "redux-persist/lib/storage";
+import { persistReducer } from "redux-persist";
+import authSlice from "./slices/authSlice";
+import persistStore from "redux-persist/es/persistStore";
+import projectSlice from "./slices/projectSlice";
+
+const reducers = combineReducers({
+  auth: authSlice,
+  projectType: projectSlice,
+});
+
+const persistConfig = {
+  key: "upu",
+  storage,
+};
+
+const persistedReducer = persistReducer(persistConfig, reducers);
+
+// export const store = configureStore({
+//   reducer: {
+//     counter: counterReducer3,
+//   },
+// });
+export const store = configureStore({
+  reducer: persistedReducer,
+});
+export const persistor = persistStore(store);
+
+
+
+
+
+
+layout.js
+
+
+import React, { useState } from "react";
+import Header from "../components/Header";
+import Sidebar from "../components/Sidebar";
+import Strawberry from "./Strawberry";
+import Safty from "./Safty";
+import Vanilla from "./Vanilla";
+import Signin from "./Signin";
+import { useDispatch, useSelector } from "react-redux";
+import { projectTypeHandler } from "../redux/slices/projectSlice";
+
+const Layout = () => {
+  const [selectedOption, setSelectedOption] = useState(null);
+  // const [isloggedIn, setIsloggedin] = useState(false);
+  const auth = useSelector((state) => state.auth.value);
+
+
+  const projectType = useSelector((state) => state.projectType.value);
+  
+  const dispatch = useDispatch();
+
+  console.log(projectType);
+
+  const handleOptionSelect = (selectedOption) => {
+    // setSelectedOption(selectedOption); // Update the selected option in state
+    dispatch(projectTypeHandler(selectedOption));
+  };
+
+  // console.log(selectedOption);
+
+  return (
+    <>
+      {!auth ? (
+        <Signin />
+      ) : (
+        <>
+          <Header handleOptionSelect={handleOptionSelect} />
+          <Sidebar />
+          {projectType && projectType === "Safty" && <Safty />}
+          {projectType && projectType === "Moulding" && <Strawberry />}
+          {projectType && projectType === "Visual Inspection" && <Vanilla />}
+        </>
+      )}
+    </>
+  );
+};
+
+export default Layout;
+
+
+changes-->
+
+
+  const projectType = useSelector((state) => state.projectType.value);
+   
+  console.log(projectType);
+
+  const handleOptionSelect = (selectedOption) => {
+    // setSelectedOption(selectedOption); // Update the selected option in state
+    dispatch(projectTypeHandler(selectedOption));
+  };
+
+
+
+ {projectType && projectType === "Safty" && <Safty />}
+ {projectType && projectType === "Moulding" && <Strawberry />}
+ {projectType && projectType === "Visual Inspection" && <Vanilla />}
+
+
+  const projectType = useSelector((state) => state.projectType.value);
+
+
+
+
+
+
+
+
+
+
+changes:---
+ projectType: projectSlice,
+
+const reducers = combineReducers({
+  auth: authSlice,
+  projectType: projectSlice,
+});
+
+
+
+
+
+******************************************
+
+header.js-->
+
+only changes 
+Moulding"
+"Visual Inspection"
+
+
+layout.js
+
+const projectType = useSelector((state) => state.projectType.value);
+console.log(projectType);
+
+ const handleOptionSelect = (selectedOption) => {
+    console.log(selectedOption, "uuuuuuuuuuuuuuuuuuuuuuuu");
+
+    // setSelectedOption(selectedOption); // Update the selected option in state
+    dispatch(projectTypeHandler(selectedOption));
+  };
+
+  {projectType && projectType === "Safty" && <Safty />}
+  {projectType && projectType === "Moulding" && <Strawberry />}
+  {projectType && projectType === "Visual Inspection" && <Vanilla />}
+
+projectTypeHandler is coming from projectSlice.js 
+
+
+
+projectSlice.js
+
+
+
+import { createSlice } from "@reduxjs/toolkit";
+
+const initialState = {
+  value: null,
+};
+
+export const projectSlice = createSlice({
+  name: "project",
+  initialState,
+  reducers: {
+    projectTypeHandler: (state, action) => {
+      state.value = action.payload.value;
+    },
+  },
+});
+
+// Action creators are generated for each case reducer function
+
+export const { projectTypeHandler } = projectSlice.actions;
+
+export default projectSlice.reducer;
+
+
+
+
+
+
+store.js
+
+const reducers = combineReducers({
+  auth: authSlice,
+  projectType: projectSlice,
+});
+  
+
+
+
+*********************************
+
+for printing the start date and end date on selecting start and end date on clicking on Click button
+
+
+
+
+import React, { useState } from "react";
+function Dashboard() {
+  const [startDate, setstartDate] = useState();
+  const [endDate, setendDate] = useState();
+
+
+
+   const handleButtonClick = async (event) => {
+    if (startDate) {
+      console.log("Selected Date: i am start dateeee", startDate);
+    } else {
+      console.log("No date selected.");
+    }
+
+
+      };
+
+ return (
+    <>
+       <form action="#" className="formContainer">
+          <div className="form-input form-start">
+            <label htmlFor="">Start Date</label>
+            <input
+              type="datetime-local"
+              id="startdate"
+              value={startDate}
+              onChange={(event) => {
+                setstartDate(event.target.value);
+                console.log(event.target.value);
+              }}
+            />
+          </div>
+          <div className="form-btn">
+            <button type="submit" onClick={handleButtonClick}>
+              Check
+            </button>
+          </div>
+        </form>
+<>
+
+ );
+}
+
+export default Dashboard;
+
+
+************************************************************************
+
+*****************Redux toolkit notes only*********************
+
+
+to install
+
+npm install @reduxjs/toolkit react-redux
+
+
+store.js ---> src/redux/store.js
+
+
+Import the configureStore API from Redux Toolkit
+
+import { configureStore } from "@reduxjs/toolkit";
+
+export const store = configureStore({
+  reducer: {},
+})
+
+
+
+***
+Provide the Redux Store to React
+
+index.js--->
+
+
+import { store } from './app/store'
+import { Provider } from 'react-redux'
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('root')
+)
+
+
+
+
+******Create a Redux State Slice******
+
+
+src\redux\slices\counterSlice.js
+
+
+import the createSlice API from Redux Toolkit.
+
+Creating a slice requires a string name to identify the slice, an initial state value, and one or more reducer functions to define how the state can be updated. Once a slice is created, we can export the generated Redux action creators and the reducer function for the whole slice.
+
+initial state value,
+reducer functions
+export the generated Redux action 
+export the reducer function
+
+
+
+
+
+import { createSlice } from '@reduxjs/toolkit'
+
+const initialState = {
+  value: 0,
+}
+
+export const counterSlice = createSlice({
+  name: 'counter',
+  initialState,
+  reducers: {
+    increment: (state) => {
+      // Redux Toolkit allows us to write "mutating" logic in reducers. It
+      // doesn't actually mutate the state because it uses the Immer library,
+      // which detects changes to a "draft state" and produces a brand new
+      // immutable state based off those changes
+      state.value += 1
+    },
+    decrement: (state) => {
+      state.value -= 1
+    },
+    incrementByAmount: (state, action) => {
+      state.value += action.payload
+    },
+  },
+})
+
+// Action creators are generated for each case reducer function
+export const { increment, decrement, incrementByAmount } = counterSlice.actions
+
+export default counterSlice.reducer
+
+
+******
+
+Add Slice Reducers to the Store
+
+redux/store.js
+
+
+import { configureStore } from '@reduxjs/toolkit'
+import counterReducer from "./slices/counterSlice";
+
+export const store = configureStore({
+  reducer: {
+    counter: counterReducer,
+  },
+})
+
+
+
+*******
+Use Redux State and Actions in React Components
+
+React-Redux hooks to let React components interact with the Redux store.
+We can read data from the store with useSelector, and dispatch actions using useDispatch
+
+app.js ---->
+
+
+import "./App.css";
+import { useSelector, useDispatch } from "react-redux";
+import { decrement, increment } from "./redux/slices/counterSlice";
+
+function App() {
+  const count = useSelector((state) => state.counter.value);
+  const dispatch = useDispatch();
+
+  return (
+    <>
+      <div>
+        <div>
+          <button
+            aria-label="Increment value"
+            onClick={() => dispatch(increment())}
+          >
+            Increment
+          </button>
+          <span>{count}</span>
+          <button
+            aria-label="Decrement value"
+            onClick={() => dispatch(decrement())}
+          >
+            Decrement
+          </button>
+        </div>
+      </div>
+    </>
+  );
+}
+
+export default App;
+
+
+
+
+*************redux toolkit completed*********************
+
+
+
+
+
+***************Redux Persist****************************
+
+ Redux Persist to save the state in persistent storage so that even after a refresh, the data will still remain intact.
+
+  We‘ll also learn how to customize what’s persisted and specify how incoming states will be merged
+
+
+  Persisting state with Redux Persist
+
+ npm i redux-persist
+
+ next modify our store
+
+ We’ll make the following modifications to our store.js file to use Redux Persist:
+
+**store.js
+
+ src/redux/store.js
+
+import storage from 'redux-persist/lib/storage';
+import { persistReducer, persistStore } from 'redux-persist';
+
+
+const persistConfig = {
+  key: 'root',
+  storage,
+}
+
+
+export const store = configureStore({
+  reducer: persistedReducer,
+});
+
+export const persistor = persistStore(store);
+
+
+// src/index.js
+
+import { persistor, store } from './redux/store';
+import { PersistGate } from 'redux-persist/integration/react';
+
+root.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
+        <App />
+      </PersistGate>
+    </Provider>
+  </React.StrictMode>
+);
+
+
+Nested persists using Redux Persist
+
+
+const store = configureStore({
+  reducer: {
+    user: userReducer,
+    notes: notesReducer
+  },
+})
+
+We can also use combineReducers as follows, which does the same thing:
+
+
+const reducers = combineReducers({
+  counter: counterReducer,
+  notes: NotesReducer
+});
+
+
+export const store = configureStore({
+  reducer: persistedReducer,
+});
+
+****
+
+
+const rootReducer = combineReducers({ 
+  user: userReducer,
+  notes: NotesReducer
+})
+
+const persistedReducer = persistReducer(persistConfig, rootReducer)
+
+const store = configureStore({
+  reducer: persistedReducer
+})
+
+
+
+
+
+
+****************************************************
+
+
+for date and time fetch from post api
+
+
+
+
+import axios from "axios";
+import React, { useState } from "react";
+function Dashboard() {
+  const [startDate, setstartDate] = useState(null);
+  const [endDate, setendDate] = useState(null);
+  const [responseData, setResponseData] = useState(null);
+
+  console.log(responseData);
+  console.log(startDate);
+  console.log(endDate);
+  const handleButtonClick = async (event) => {
+    if (startDate && endDate) {
+      const requestData = JSON.stringify({
+        startDate: startDate, // Convert date to ISO string
+        endDate: endDate,
+      });
+
+      const response = await axios.post(
+        "http://10.12.1.151:4002/api/v1/master/fetchAlerts",
+        requestData
+      );
+
+      setResponseData(response);
+    }
+  };
+
+  return (
+    <>
+      <div>
+        <form className="formContainer">
+          <div className="form-input form-start">
+            <label htmlFor="">Start Date</label>
+            <input
+              type="datetime-local"
+              id="startdate"
+              value={startDate}
+              onChange={(event) => {
+                setstartDate(event.target.value);
+                console.log(event.target.value);
+              }}
+            />
+          </div>
+          <div className="form-input form-end">
+            <label htmlFor="">End Date</label>
+            <input
+              type="datetime-local"
+              id="enddate"
+              value={endDate}
+              onChange={(event) => {
+                setendDate(event.target.value);
+                console.log(event.target.value);
+              }}
+            />
+          </div>
+          <div className="form-btn">
+            <button type="button" onClick={handleButtonClick}>
+              Check
+            </button>
+          </div>
+        </form>
+        <div className="onCheckclick">
+          {/* Display the data fetched from the API here */}
+          {responseData && (
+            <div>
+              <h2>Fetched Data:</h2>
+              <pre>{JSON.stringify(responseData, null, 2)}</pre>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* <div className="imageContainer"><Imagecontainer /></div> */}
+    </>
+  );
+}
+
+export default Dashboard;
+
+
+
+
+
+
+*******************************************************************
+
+Date:- 17/09/2023
+
+
+import axios from "axios";
+import React, { useState } from "react";
+function Dashboard() {
+  const [startDate, setstartDate] = useState(null);
+  const [endDate, setendDate] = useState(null);
+  const [responseData, setResponseData] = useState(null);
+
+  console.log(responseData);
+  console.log(startDate);
+  console.log(endDate);
+  const handleButtonClick = async (event) => {
+    if (startDate && endDate) {
+      const requestData = JSON.stringify({
+        startDate: startDate, // Convert date to ISO string
+        endDate: endDate,
+      });
+
+      const response = await axios.post(
+        "http://10.12.1.151:4002/api/v1/master/fetchAlerts",
+        requestData
+      );
+
+      setResponseData(response);
+    }
+  };
+
+  return (
+    <>
+      <div>
+        <form className="formContainer">
+          <div className="form-input form-start">
+            <label htmlFor="">Start Date</label>
+            <input
+              type="datetime-local"
+              id="startdate"
+              value={startDate}
+              onChange={(event) => {
+                setstartDate(event.target.value);
+                console.log(event.target.value);
+              }}
+            />
+          </div>
+          <div className="form-input form-end">
+            <label htmlFor="">End Date</label>
+            <input
+              type="datetime-local"
+              id="enddate"
+              value={endDate}
+              onChange={(event) => {
+                setendDate(event.target.value);
+                console.log(event.target.value);
+              }}
+            />
+          </div>
+          <div className="form-btn">
+            <button type="button" onClick={handleButtonClick}>
+              Check
+            </button>
+          </div>
+        </form>
+        <div className="onCheckclick">
+          {/* Display the data fetched from the API here */}
+          {responseData && (
+            <div>
+              <h2>Fetched Data:</h2>
+              <pre>{JSON.stringify(responseData, null, 2)}</pre>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* <div className="imageContainer"><Imagecontainer /></div> */}
+    </>
+  );
+}
+
+export default Dashboard;
+
+
+
+
+****************************************************************
+
+
+
+  const [startDate, setstartDate] = useState(null);
+  const [endDate, setendDate] = useState(null);
+  const [responseData, setResponseData] = useState(null);
+
+  console.log(responseData);
+  console.log(startDate);
+  console.log(endDate);
+  const handleButtonClick = async (event) => {
+    if (startDate && endDate) {
+      const requestData = JSON.stringify({
+        startDate: startDate, // Convert date to ISO string
+        endDate: endDate,
+      });
+
+      const response = await axios.post(
+        "http://10.12.1.151:4002/api/v1/master/fetchAlerts",
+        requestData
+      );
+
+      setResponseData(response);
+    }
+  }
+
+
+
+
+******************************************************************
+Date:- 18/09/2023
+
+// Position absolute, relative, sticky, and fixed by CWH
+
+index.css
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .container{
+    position: relative;
+    min-height: 100vh;
+    background-color: #ddd;
+} */
+.box{
+    border:  2px solid red;
+    width: 100px;
+    height: 100px;
+    margin: 2px;
+    display: inline-block;
+}
+
+#box3{
+/* position: relative :- relative to its normal position  and will leave a gap at its normal position*/
+/* position: relative; */
+
+/* absolue: relative to the position of its first parent */
+    /* position: absolute; */
+
+
+/* fixed: Positions the element relative to the browser window  or of its first parent */
+    /* position: fixed; */
+
+  /* Sticky: Positions the element relative to its normal position  */
+    position: sticky;
+
+
+
+    top: 34px;
+    left: 34px;   
+
+}
+
+.container{
+ border:2px solid red;
+ background-color: khaki;
+ height: 3444px;
+
+}
+
+
+*****
+
+index.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- <div class="container"> -->
+    <!-- <div class="image-container">
+        <div class="image"><img src="./Images/image1.jpg" alt="" /></div>
+        <div class="image"><img src="./Images/image1.jpg" alt="" /></div>
+        <div class="image"><img src="./Images/image1.jpg" alt="" /></div>
+        <div class="image"><img src="./Images/image1.jpg" alt="" /></div>
+        <div class="image"><img src="./Images/image1.jpg" alt="" /></div>
+        <div class="image"><img src="./Images/image1.jpg" alt="" /></div>
+        <div class="image"><img src="./Images/image1.jpg" alt="" /></div>
+        <div class="image"><img src="./Images/image1.jpg" alt="" /></div>
+      </div> 
+     </div>-->
+
+    <div class="container">
+      <div class="box" id="box1"></div>
+      <div class="box" id="box2"></div>
+      <div class="box" id="box3"></div>
+      <div class="box" id="box4"></div>
+    </div>
+  </body>
+</html>
+
+
+
+Date:- 19/09/2023
+
+
+.imageContainer {
+  height: 500px;
+  /* background-color: red; */
+  border: 3px solid black; /* Add black border */
+  border-radius: 8px;
+
+  margin: 27px 98px;
+}
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+.imagecontainerchild {
+  width: 198px;
+  height: 198px;
+  border: 2px solid black;
+  margin: 33px 38px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  border-radius: 10px;
+}
+.imagecontainerchild img {
+  width: 197px;
+  height: 196px;
+  border-radius: 10px;
+}
+
+.datepicker {
+  height: 30px;
+  width: 205px;
+  border-radius: 5px;
+  padding: 15px 8px;
+  font-size: 15px;
+  position: relative;
+}
+.datepicker-icon {
+  position: absolute;
+  left: 180px;
+  font-size: 21px;
+  /* background-color: red; */
+}
+
+*********************
+
+Date:- 20/09/2023
+
+
+for logout:-
+
+import { logoutHandler } from "../redux/slices/authSlice";
+
+const dispatch = useDispatch();
+const logout = () => {
+    dispatch(logoutHandler());
+      };
+
+ <button onClick={logout}>Logout</button>
+
+
+
+*************************
+for deleting in depts these are the following things i did-->
+in UserDepts
+import { toast } from "react-toastify";
+
+ const deleteHandler = async (id) => {
+    console.log("clicked", id, typeof id);
+    let data = await postAPI(
+      "master/dept/delete",
+      { dept_id: parseInt(id) },
+      null
+    );
+    if (data?.status) {
+      toast.success("Department has been deleted successfully.");
+      fetchUsers();
+    } else {
+      toast.error("Department is not deleted! Something went wrong.");
+    }
+  };
+
+
+onClick={() => deleteHandler(dept_id)} ----> this one
+   <td
+              onClick={() => deleteHandler(dept_id)}
+              className="btn-delete"
+              style={{
+                padding: "8px 16px",
+                borderRadius: "4px",
+                cursor: "pointer",
+              }}
+            >
+              <i className="fas fa-trash-alt"></i>
+            </td>
+
+in depts--->
+<UserData users={users} fetchUsers={fetchUsers} />
+i have passed as a props fetchUsers={fetchUsers}.
+
+
+
+
+***********
+
+for api and global state Management for signin 
+.env
+REACT_APP_API_URI=http://10.12.1.151:4002/api/v1
+
+in signin-->
+let data = await postAPI("auth/login", payload, null);
+
+in fetchapi-->
+
+ let path = `${process.env.REACT_APP_API_URI}/${url}`;
+
+ export const postAPI = async (url, payload, token) => {
+  let path = `${process.env.REACT_APP_API_URI}/${url}`;
+  console.log(path);
+  let config = {
+    method: "post",
+    maxBodyLength: Infinity,
+    url: path,
+    headers: {
+      token: token,
+      "Content-Type": "application/json",
+    },
+    data: payload,
+  };
+
+
+************************************
+
+
+Date:- 21/09/2023
+
+for start date and end date---->
+
+ const [startDate, setstartDate] = useState(null);
+  const [endDate, setendDate] = useState(null);
+  const [showImageContainer, setShowImageContainer] = useState(false);
+  // const [responseData, setResponseData] = useState(null);
+
+  // console.log(responseData);
+  console.log(startDate);
+  console.log(endDate);
+  const handleButtonClick = async (event) => {
+    if (startDate && endDate) {
+      const requestData = JSON.stringify({
+        startTime: startDate,
+        endTime: endDate,
+      });
+
+
+ console.log(requestData, "requested data");
+ const response = await postAPI("master/fetchAlerts", requestData, null);
+console.log(response);
+
+*************
+
+notes for edit
+notes for delete 
+
+UsersData page sweetalert
+
+
+
+
+
+***********************
+Date:-- 22/09/2023
+
+look at the dashboard page ----> for image container and users.map and revise the changes
+
+for filter --->
+in dashboard page--->
+const [selectedFilter, setSelectedFilter] = useState("All");
+
+ <div className="form-input form-filter">
+            <label htmlFor="filter">Filter:</label>
+            <select
+              id="filter"
+              value={selectedFilter}
+              onChange={(event) => {
+                setSelectedFilter(event.target.value);
+                console.log(event.target.value, "selected optionnnnnnnnnnnn");
+              }}
+            >
+              <option value="All">All</option>
+              <option value="Option1">Option 1</option>
+              <option value="Option2">Option 2</option>
+              {/* Add more filter options as needed */}
+            </select>
+          </div>
+
+
+ <Imagecontainer
+            selectedFilter={selectedFilter}
+          />
+
+
+
+now in the imagecontainer.jsx page---->
+
+const Imagecontainer = ({ users,selectedFilter }) {
+console.log("selected filter: ", selectedFilter);
+
+}
+
+
+ const filterOptions = (options, selectedFilter) => {
+    if (selectedFilter === "All") {
+      return options; // Return all options
+    } else {
+      // console.log("optionssssssssssssssss: ", users);
+
+      // cameraAndDept.forEach((item) => {
+      // console.log("deptnameeeeeeee:", item.dept_name);
+      // console.log("selectedFilterrrrrr", selectedFilter);
+      // Apply your filtering logic here based on the selectedFilter
+      // For example, if you want to filter by a specific condition:
+      return options.filter((option) => {
+        // Replace 'dept_name' with the actual property name in your 'options' objects
+        // console.log(options, "i am optionsss");
+        // console.log(option.dept_name, "Heyyy i am option dept_id");
+        // const dept = options.map((item, index) => item.dept_name);
+        // console.log("heyyy i am depts: ", dept);
+
+        return option.dept_name === selectedFilter;
+      });
+    }
+    // });
+  };
+
+
+   const filteredOptions = filterOptions(users, selectedFilter);
+
+
+ {filteredOptions.map((item, index) => (
+          <div className="imagecontainerchild" key={index}>
+            <div className="img_child">
+              <img
+                src={imageArray[index]}
+                alt=""
+                onClick={() => openPopup(imageArray[index])}
+              />
+              <div className="img_dept">{item?.dept_name}</div>
+              <div className="img_cam">
+                Cam: <span>{item?.camera}</span>
+              </div>
+            </div>
+          </div>
+        ))}
+
+on the above i have used only filteredOptions.map
+
+*****
+when i logout from the page and then i again logged in the state of the page remain same 
+as the page was visual inapection still it was showing visual Inspection even after login again 
+so in order to resolve this issue i did the following things:-
+
+
+
+
+in mainsidebar page:-
+
+ dispatch(initialProjectTypeHandler());
+
+in projectslice page:-
+
+  initialProjectTypeHandler: (state) => {
+      state.value = null;
+    },
+
+export const {initialProjectTypeHandler } 
+
+
+
+
+
+
+
+Date:- 25/09/2023
+
+
+
+initially for the filter option in the Image container page
+  const filterOptions = (options, selectedFilter) => {
+    if (selectedFilter === "All") {
+      return options; // Return all options
+    } else {
+      // console.log("optionssssssssssssssss: ", users);
+
+      // cameraAndDept.forEach((item) => {
+      // console.log("deptnameeeeeeee:", item.dept_name);
+      // console.log("selectedFilterrrrrr", selectedFilter);
+      // Apply your filtering logic here based on the selectedFilter
+      // For example, if you want to filter by a specific condition:
+      return options.filter((option) => {
+        // Replace 'dept_name' with the actual property name in your 'options' objects
+        // console.log(options, "i am optionsss");
+        // console.log(option.dept_name, "Heyyy i am option dept_id");
+        // const dept = options.map((item, index) => item.dept_name);
+        // console.log("heyyy i am depts: ", dept);
+
+        return option.dept_name === selectedFilter;
+      });
+    }
+    // });
+  };
+
+
+*******************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
