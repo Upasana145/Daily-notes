@@ -2717,6 +2717,269 @@ initially for the filter option in the Image container page
 
 *******************
 
+Date:- 25/09/2023
+
+
+ const data = await getAPI(`master/dept`, null);
+ console.log(data, "heyyyyyy i am dataaa");
+
+
+<select
+              id="filter"
+              value={selectedFilter}
+              onChange={(event) => {
+                setSelectedFilter(event.target.value);
+                console.log(event.target.value, "selected optionnnnnnnnnnnn");
+              }}
+              className="form_control"
+            >
+              {/* <option value="All">All</option>
+              {options.map((opts, i) => (
+                <option>{opts.dept_name}</option>
+              ))} */}
+              {/* Add more filter options as needed */}
+              <option value="All">All</option>
+              {[...new Set(options.map((opts) => opts.dept_name))].map(
+                (deptName, i) => (
+                  <option key={i}>{deptName}</option>
+                )
+              )}
+            </select>
+
+
+
+
+Date:- 26/09/2023
+
+
+How to upload folder on the git hub
+important requiremet:-
+git bash
+
+
+create a repository on the git hub
+my profile --> your repository --> new --> name of the repo --> create repo
+if i am doing with terminal then i don't need to click on the readme 
+
+here i am doing by terminal so this is the procedure:-
+
+git init 
+--> this will create a folder with name git
+---> this folder will track down all the changes which are happning into your project
+so if you add any file delete any file or make any changes in any file that this folder will track'
+down and you will be commiting all the changes into the next commit of your repository
+--> this is the use of .git folder
+
+git status
+--> we can use the git status command to see the status of our repository
+
+
+
+--> if u want to add single file then u can do like 
+git add manage.py 
+
+---> for all the files 
+git add .
+to add the repository
+
+
+git commit - u "initial commit"
+
+after that we have to select the branch if we don't give the branch so it will defaultly 
+select a master branch
+
+
+after that there is a option to create a branch if we don't create a branch 
+master branch is default branch
+
+after that there is a option to connect the local folder to the 
+
+
+create a repository on the github
+
+** add branch if i will not add branch then it automatically takes  master branch 
+git remote add origin https://github.com/Upasana145/Daily-notes.git 
+git push -u origin master
+
+
+Date:- 27/09/2023
+
+
+today's target:-
+
+*spotify clone by CWH
+*make notes of edit , delete and jiska jiska bacha hai
+
+
+Date:- 28/09/2023
+
+https://ui-themez.smartinnovates.net/items/Gavi/light/home.html
+--> link is for layout design 
+
+worked on:- Not worked.
+
+Date:- 29/09/2023
+
+Today's goal:-
+2hr19min : Thapa technical video on bootstrap
+till 12:- watch entire video  achived:- completed till 
+till 1:30:- watch and practice 15 mins of it --> completed by 3pm
+till 3:00:-  complete till 30mins
+till 4:00:- complete till 45 mins
+till 5:- complete till 1hr 
+till 6:- complete till 1hr 15mins
+till 8:- complete till 1hr 30mins
+till 9:- complete till 1hr 45mins
+till 10:- complete till 2hr
+till 11:- complete till 2hr 15mins
+till 12:- complete till 2hr 30 mins
+Pending:-
+*Revision of Sudisa line by line
+
+
+
+
+
+
+
+
+me-auto ms-auto my-auto
+
+The me and ms classes in Bootstrap 5 are used to ad margin to the right and the left sides
+of an element, respectively
+
+Div with class.container
+Div with class.container-fluid
+text-capitalize
+To begin, let's use GitHub data to establish which of the two Css framework is more popular.
+On GitHub, Tailwind CSS has 3.1k forks and 61.1k stars, while Bootstrap has 77.3k forks and 
+160k starts.
+
+
+
+
+
+Date:- 02/10/2023
+
+
+col-12 
+col-md-12 
+col-lg-6
+
+Certainly! The code you provided is a CSS style declaration, and it sets various styles for an HTML element. Let's break it down line by line:
+
+1. `margin: 0;`:
+   - This line sets the margin of the element to 0. Margins are the space around an element, and setting it to 0 means there will be no spacing between this element and its neighboring elements.
+
+2. `font-weight: 400;`:
+   - It sets the font weight to 400. Font weight determines how thick or thin the characters in the text appear. In most cases, a weight of 400 corresponds to a normal or regular font weight.
+
+3. `font-size: 1rem;`:
+   - This line sets the font size to 1rem. "Rem" stands for "root em," and it is a relative unit of measurement for font size. 1rem is equivalent to the font size of the root (usually the `<html>` element). So, it sets the font size to be equal to the default font size of the root element.
+
+4. `color: var(--bs-dark-color);`:
+   - It sets the text color of the element to a custom CSS variable `--bs-dark-color`. CSS variables allow you to define reusable values that can be used throughout your stylesheet. In this case, it's setting the text color to the value of the `--bs-dark-color` variable.
+
+5. `letter-spacing: 0.07rem;`:
+   - This line adds a slight letter-spacing to the text. It increases the space between individual characters by 0.07rem units. This can be used for fine-tuning the spacing between characters in text.
+
+6. `line-height: 1.55rem;`:
+   - It sets the line height of the text to 1.55rem. Line height defines the amount of vertical space between lines of text. In this case, it's setting it to 1.55 times the font size.
+
+7. `font-synthesis: none;`:
+   - This property controls font synthesis, which is the process of the browser artificially bolding or italicizing text when the desired font style is not available. Setting it to `none` disables font synthesis, meaning the browser won't try to fake bold or italic styles.
+
+8. `text-rendering: optimizeLegibility;`:
+   - This line sets the text rendering mode to "optimizeLegibility." It instructs the browser to optimize text rendering for legibility, which means it will apply various text rendering techniques to ensure that the text is as readable as possible.
+
+Overall, these CSS styles are used to define the appearance of text within an HTML element, focusing on aspects like font size, color, spacing, and legibility while also considering font weight and synthesis. The use of CSS variables (`--bs-dark-color`) allows for flexibility and easier theming of your website.
+
+
+
+
+Certainly! These lines of CSS code are used to style links (`<a>`) and list items (`<li>`) in HTML documents. Let's break down each line:
+
+1. `a { text-decoration: none; }`:
+   - This line selects all anchor (`<a>`) elements and sets the `text-decoration` property to `none`. 
+   - `text-decoration` is a CSS property that controls the decoration of text, such as underlines, overlines, and line-throughs. By setting it to `none`, it removes any underlines from the links.
+   - This is commonly used to remove the default underlines from hyperlinks to make them look cleaner and more stylized. It's often used in conjunction with other styles to create custom link appearances.
+
+2. `li { list-style: none; }`:
+   - This line selects all list item (`<li>`) elements and sets the `list-style` property to `none`.
+   - The `list-style` property controls the appearance of list item markers or bullets in unordered lists (`<ul>`) and ordered lists (`<ol>`). Setting it to `none` removes these markers.
+   - This is commonly used when you want to create custom-styled lists that don't have default bullet points or numbers.
+
+So, in summary, these two lines of CSS code are often used together to style links without underlines and to remove list item markers or bullets in lists. They are useful for customizing the visual presentation of these HTML elements.
+
+
+
+
+
+Date:- 10/10/2023
+
+today's task :--
+
+https://www.youtube.com/watch?v=RUku45vpSDU
+
+my target:- 
+go through sudisa task and see what are the things used in each page using chatgpt and try to practice each
+and every individual things throuh youtube.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
 
 
 
